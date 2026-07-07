@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ms-Kal//Kay Life Rhythm//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ms-Kal — Kay's Rhythm
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:mskal-wake-20260708@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260708T103000
+DTEND;TZID=America/New_York:20260708T110000
+SUMMARY:☀️ WAKE + open ALL curtains + light in eyes
+DESCRIPTION:Keystone of the day. Up\, curtains open everywhere\, 10 min light (outside or brightest window)\, water. Even on low sleep. This is the win.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:☀️ Up + curtains + light
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-wake-20260709@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260709T100000
+DTEND;TZID=America/New_York:20260709T103000
+SUMMARY:☀️ WAKE + open ALL curtains + light in eyes
+DESCRIPTION:Curtains open everywhere\, 10 min light\, water. Getting earlier — you've got it.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:☀️ Up + curtains + light
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-wake-20260710@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260710T093000
+DTEND;TZID=America/New_York:20260710T100000
+SUMMARY:☀️ WAKE + open ALL curtains + light in eyes
+DESCRIPTION:Curtains open everywhere\, 10 min light\, water.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:☀️ Up + curtains + light
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-wake-20260711@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260711T090000
+DTEND;TZID=America/New_York:20260711T093000
+SUMMARY:☀️ WAKE + open ALL curtains + light in eyes
+DESCRIPTION:Curtains open everywhere\, 10 min light\, water.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:☀️ Up + curtains + light
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-wake-20260712@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260712T083000
+DTEND;TZID=America/New_York:20260712T090000
+SUMMARY:☀️ WAKE before 9 — GOAL DAY 🎉 curtains + light
+DESCRIPTION:This is the week's goal: before 9. Curtains\, light\, water. If you're reading this awake before 9 — you did the thing.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:☀️ GOAL: up before 9 + curtains + light
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-deepwork-daily@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260708T113000
+DTEND;TZID=America/New_York:20260708T130000
+RRULE:FREQ=DAILY;UNTIL=20260720T000000Z
+SUMMARY:🧠 Deep-work block — ONE project, next action only
+DESCRIPTION:Pick ONE from backlog.md (GRE / lab paper / EEG / 3DGS). Do its next action. Phone in another room. 25 min counts.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧠 One project. Next action. Start.
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-admin-daily@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260708T130000
+DTEND;TZID=America/New_York:20260708T134500
+RRULE:FREQ=DAILY;UNTIL=20260720T000000Z
+SUMMARY:🔵 Admin block — one call/errand from backlog
+DESCRIPTION:One thing off the blue batch. Order: Deloitte bonus → Vanguard 401k → Mount Sinai fee → deposit checks → cancel gym → Amazon return. Calls during business hours.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🔵 One call or one errand. Just one.
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-move-daily@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260708T150000
+DTEND;TZID=America/New_York:20260708T160000
+RRULE:FREQ=DAILY;UNTIL=20260720T000000Z
+SUMMARY:🏃 Move your body — LEAVE THE HOUSE
+DESCRIPTION:Bar is leaving the house\, not a perfect workout. Walk / run / climb — your pick. It is never too late to open the door. Motion fixes mood.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃 Open the door. Walk counts.
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mskal-winddown-daily@ms-kal
+DTSTAMP:20260707T120000Z
+DTSTART;TZID=America/New_York:20260708T231500
+DTEND;TZID=America/New_York:20260708T234500
+RRULE:FREQ=DAILY;UNTIL=20260720T000000Z
+SUMMARY:🌙 Wind down — dim lights, screens off, write tomorrow's top-1
+DESCRIPTION:Bed target ramps earlier this week (1:30am → 11:30pm by Sun). Dim the lights\, screens down/night mode\, write tomorrow's one thing so your brain lets go.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌙 Start winding down. Lights low.
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
