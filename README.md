@@ -1,11 +1,32 @@
 # Ms-Kal — Kay's life rhythm system 🌅
 
-This isn't a productivity app. It's a small system to pull one life out of an
-avoidance spiral and back into a normal human rhythm — brain and body.
+This isn't a productivity app, and it isn't a folder of documents you have to
+open and drive yourself. It's a **butler** — a therapy-informed agent that
+reaches out to you, decides the next smallest step *for* you, remembers
+everything so you don't have to, and nudges you back into a normal human
+rhythm. The markdown files below are its *brain and memory*; the living thing
+is the agent that acts on them.
 
 Built around one belief: **you don't have ten problems. You have one keystone
 (your wake time + light) and a pile of stuff that's only heavy because it's
 been living in your head instead of on a page.**
+
+## 🤵 The Butler (start here)
+
+The mechanism — not a doc you read, an agent that comes to you:
+- **Reaches out** on a schedule (morning anchor + evening reflection, to your
+  phone) so *initiating* is never on you.
+- **Decides the one next step** so you never face the whole pile.
+- **Remembers** your mood, wins, and what's due — you never re-explain.
+- **Talks like a trained counselor**, using evidence-based methods
+  (Behavioral Activation, Motivational Interviewing, CBT reframing,
+  implementation intentions, self-compassion, tiny habits) — never a cheerleader.
+
+→ Brain: [`butler/PROTOCOL.md`](butler/PROTOCOL.md) · Memory:
+[`butler/state.md`](butler/state.md) · History: [`butler/log.md`](butler/log.md)
+
+*It is a supportive companion grounded in therapy research — not a replacement
+for a real therapist. See the safety section in the protocol.*
 
 ## The three layers
 
