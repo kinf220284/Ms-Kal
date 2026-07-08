@@ -25,6 +25,25 @@ The mechanism — not a doc you read, an agent that comes to you:
 → Brain: [`butler/PROTOCOL.md`](butler/PROTOCOL.md) · Memory:
 [`butler/state.md`](butler/state.md) · History: [`butler/log.md`](butler/log.md)
 
+### 🕯️ The Companion tab (the ambient, passive surface)
+
+[`app/companion.html`](app/companion.html) — an **always-on tab you keep open**
+(pin it, or add it to your phone's home screen). It's **receive-only** — it asks
+nothing of you:
+
+- A soft, breathing presence in a field of color that **shifts with the time of
+  day on its own** — dawn, daylight, dusk, night — mirroring the circadian
+  rhythm you're rebuilding.
+- **One** gentle line + **one** small next thing, chosen for the current hour.
+  Morning → light. Afternoon → the door. Night → wind down.
+- A quiet **undercurrent** of therapy-grounded lines that rotates by itself, so
+  the companion keeps giving to you without a single tap.
+- The only thing you *can* touch is one soft "talk it out" link, for when
+  something's heavy and you want the deep butler in the chat.
+
+Nothing to press, nothing to schedule, nothing to remember. Leave it open and
+just glance. The tab is presence; the chat is conversation.
+
 *It is a supportive companion grounded in therapy research — not a replacement
 for a real therapist. See the safety section in the protocol.*
 
